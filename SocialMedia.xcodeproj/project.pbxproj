@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		28151B5E2933D4A80040164D /* StormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28151B5E2933D4A80040164D /* SocialMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28151B612933D4A80040164D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28151B632933D4A80040164D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		28151B652933D4A80040164D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		28151B552933D4A80040164D = {
 			isa = PBXGroup;
 			children = (
-				28151B602933D4A80040164D /* StormViewer */,
+				28151B602933D4A80040164D /* SocialMedia */,
 				28151B5F2933D4A80040164D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,12 +70,12 @@
 		28151B5F2933D4A80040164D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28151B5E2933D4A80040164D /* StormViewer.app */,
+				28151B5E2933D4A80040164D /* SocialMedia.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28151B602933D4A80040164D /* StormViewer */ = {
+		28151B602933D4A80040164D /* SocialMedia */ = {
 			isa = PBXGroup;
 			children = (
 				28151B612933D4A80040164D /* AppDelegate.swift */,
@@ -88,7 +88,7 @@
 				28151B752933D4FC0040164D /* Content */,
 				28151B6F2933D4AA0040164D /* Info.plist */,
 			);
-			path = StormViewer;
+			path = SocialMedia;
 			sourceTree = "<group>";
 		};
 		28151B752933D4FC0040164D /* Content */ = {
@@ -111,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28151B5D2933D4A80040164D /* StormViewer */ = {
+		28151B5D2933D4A80040164D /* SocialMedia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28151B722933D4AA0040164D /* Build configuration list for PBXNativeTarget "StormViewer" */;
+			buildConfigurationList = 28151B722933D4AA0040164D /* Build configuration list for PBXNativeTarget "SocialMedia" */;
 			buildPhases = (
 				28151B5A2933D4A80040164D /* Sources */,
 				28151B5B2933D4A80040164D /* Frameworks */,
@@ -123,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = StormViewer;
+			name = SocialMedia;
 			productName = StormViewer;
-			productReference = 28151B5E2933D4A80040164D /* StormViewer.app */;
+			productReference = 28151B5E2933D4A80040164D /* SocialMedia.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28151B592933D4A80040164D /* Build configuration list for PBXProject "StormViewer" */;
+			buildConfigurationList = 28151B592933D4A80040164D /* Build configuration list for PBXProject "SocialMedia" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28151B5D2933D4A80040164D /* StormViewer */,
+				28151B5D2933D4A80040164D /* SocialMedia */,
 			);
 		};
 /* End PBXProject section */
@@ -339,8 +339,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AB23235B6K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StormViewer/Info.plist;
+				INFOPLIST_FILE = SocialMedia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -351,7 +352,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mudulozan.StormViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mudulozan.SocialMedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -366,8 +367,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AB23235B6K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StormViewer/Info.plist;
+				INFOPLIST_FILE = SocialMedia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -378,7 +380,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mudulozan.StormViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mudulozan.SocialMedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -389,7 +391,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28151B592933D4A80040164D /* Build configuration list for PBXProject "StormViewer" */ = {
+		28151B592933D4A80040164D /* Build configuration list for PBXProject "SocialMedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28151B702933D4AA0040164D /* Debug */,
@@ -398,7 +400,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28151B722933D4AA0040164D /* Build configuration list for PBXNativeTarget "StormViewer" */ = {
+		28151B722933D4AA0040164D /* Build configuration list for PBXNativeTarget "SocialMedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28151B732933D4AA0040164D /* Debug */,

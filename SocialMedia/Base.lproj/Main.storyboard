@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="OEp-Zn-oRp">
             <objects>
-                <tableViewController id="9Ka-YA-o8n" customClass="ViewController" customModule="StormViewer" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="9Ka-YA-o8n" customClass="ViewController" customModule="SocialMedia" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="wXE-VD-JMm">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,7 +49,7 @@
         <!--Detail View Controller-->
         <scene sceneID="JCG-SM-ogp">
             <objects>
-                <viewController storyboardIdentifier="Detail" id="oEj-2M-Pa9" customClass="DetailViewController" customModule="StormViewer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Detail" id="oEj-2M-Pa9" customClass="DetailViewController" customModule="SocialMedia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xnu-KG-VVv">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,10 +61,10 @@
                         <viewLayoutGuide key="safeArea" id="Vj2-cj-zmg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="rLh-7v-ril" firstAttribute="top" secondItem="xnu-KG-VVv" secondAttribute="topMargin" constant="-59" id="30C-XH-iiD"/>
-                            <constraint firstItem="rLh-7v-ril" firstAttribute="centerY" secondItem="xnu-KG-VVv" secondAttribute="centerY" id="WVI-VR-yuz"/>
-                            <constraint firstItem="rLh-7v-ril" firstAttribute="centerX" secondItem="xnu-KG-VVv" secondAttribute="centerX" id="dmt-2W-hZg"/>
-                            <constraint firstItem="rLh-7v-ril" firstAttribute="leading" secondItem="Vj2-cj-zmg" secondAttribute="leading" id="gZf-gZ-w52"/>
+                            <constraint firstAttribute="trailing" secondItem="rLh-7v-ril" secondAttribute="trailing" id="D6g-mL-A6Z"/>
+                            <constraint firstItem="rLh-7v-ril" firstAttribute="leading" secondItem="xnu-KG-VVv" secondAttribute="leading" id="IMK-vD-hID"/>
+                            <constraint firstItem="rLh-7v-ril" firstAttribute="bottom" secondItem="xnu-KG-VVv" secondAttribute="bottom" id="MDl-fb-xlu"/>
+                            <constraint firstItem="rLh-7v-ril" firstAttribute="top" secondItem="xnu-KG-VVv" secondAttribute="top" id="Yir-9a-8JC"/>
                         </constraints>
                     </view>
                     <connections>
